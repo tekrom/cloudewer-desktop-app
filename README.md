@@ -9,6 +9,8 @@ Varsayılan genel ekran görüntüsü kısayol tuşu PrintScreen
 Varsayılan ekran görüntüsünden çıkma kısayol tuşu ESC
 
 npm i node-modules 
+
+
 npm run dev
 
 ![20220427153227](https://user-images.githubusercontent.com/104488466/165519292-e12ebce8-9872-42e7-854a-f4dbbb3a1acb.png)
