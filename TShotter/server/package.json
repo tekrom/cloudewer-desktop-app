@@ -1,0 +1,21 @@
+{
+    "name": "T-Shotter",
+    "version": "0.0.1",
+    "main": "electron.js",
+    "dependencies": {
+        "auto-launch": "^5.0.5",
+        "axios": "^0.26.1",
+        "electron": "^1.8.1",
+        "electron-is-dev": "^0.3.0",
+        "electron-log": "^2.2.11",
+        "electron-multi-monitor": "^1.0.0",
+        "electron-store": "^1.3.0",
+        "lodash": "^4.17.4"
+    },
+    "scripts": {
+        "dev": "electron ./electron"
+    },
+    "devDependencies": {
+        "electron-packager": "^15.4.0"
+    }
+}

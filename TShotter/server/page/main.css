@@ -1,0 +1,70 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #3d001e;
+}
+.slash-top {
+    position: relative;
+    margin: 20% 20% 10% 20%;
+    display: flex;
+    align-items: center;
+}
+.slash-top-slogan{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    color: #e3d6be;
+    margin-left: 20px;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+}
+
+.developer{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 9%;
+    text-align: right;
+    color: #e3d6be;
+    margin-left: 20px;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+}
+.slash-cut {
+    font-family: 'Dosis', sans-serif;
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0; /*İlk durum şeffaflığı 0*/
+    }
+    50% {
+        opacity: 0; /*Ara durum şeffaflığı 0*/
+    }
+    100% {
+        opacity: 1; /*Bitiş durumu şeffaflığı 1*/
+    }
+}
+.slash-movie ul {
+    list-style: bengali;
+    font-family: 'Dosis', sans-serif;
+    color: #ac9393;
+    margin: 5% 0 0 30%;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+}
+.slash-info {
+    color: #eadfc6;
+    list-style: none;
+}
+.slash-inc {
+    margin-top: 10px;
+    margin-left: 60px;
+}
